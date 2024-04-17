@@ -653,7 +653,7 @@ footer {
 }
 
 .footer-child2 input {
-    width: 74%;
+    width: 72%;
     padding: 10px 5px;
     border: 1px solid #eeeeee;
     outline: 0;
@@ -703,7 +703,7 @@ footer {
 
 
 .footer-child3 {
-    width: calc(calc(100% - 30px) / 4);
+    width: calc(calc(100% - 40px) / 4);
 }
 
 .mb-20 {
