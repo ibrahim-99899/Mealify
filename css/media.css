@@ -1,0 +1,417 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+/* // Medium devices (tablets, 768px and up) */
+
+
+
+@media (max-width: 1200px) {
+    .container {
+        width: 98%;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .list-header {
+        width: 50%;
+        justify-content: end;
+    }
+
+    .list-header-child {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        background-color: rgb(250, 250, 250);
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        transform: translateX(100%);
+        transition: 1s;
+    }
+
+    .list-header-child ul {
+        flex-direction: column;
+        align-items: start;
+        padding: 15px 0;
+    }
+
+
+    .list-header-child ul li {
+        margin: 8px 5px;
+    }
+
+
+
+    .icon-header a {
+        margin: 0;
+        padding: 8px;
+    }
+
+    .bars {
+        display: inline;
+    }
+
+    .list-header:hover .list-header-child {
+        transform: translateX(0%);
+    }
+
+    /* main */
+    main {
+        height: 165vh;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .word {
+        margin-top: 40px;
+        width: 100%;
+        order: 2;
+    }
+
+    .picture {
+        order: 1;
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .picture img {
+        width: 70%;
+    }
+
+    /* section-1 */
+
+    .chefs-parent .child {
+        position: relative;
+        width: calc(calc(100% - 20px)/2);
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: rgb(242, 242, 242);
+        transition: 0.7s;
+    }
+
+
+    .head-section p,
+    .head-section p span {
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+    }
+
+    
+    .chefs-image::after {
+        bottom: -20px;
+    }
+    /* section-1 */
+    /* section-2 */
+    .gallery-parent {
+        width: 100%;
+        height: 100rem;
+    }
+
+    .gallery-child {
+        width: calc(calc(100% - 30px) / 2);
+    }
+
+    .one {
+        order: 1;
+    }
+
+    .two {
+        order: 3;
+    }
+
+    .three {
+        order: 5;
+    }
+
+    .four {
+        order: 4;
+    }
+
+    .five {
+        order: 2;
+    }
+
+    .six {
+        order: 6;
+    }
+
+    .seven {
+        order: 7;
+    }
+
+    /* section-2 */
+
+
+    /* section-3 */
+
+    .info-child {
+        width: 95%;
+    }
+
+    .form-50 {
+        width: 99.5%;
+    }
+    .info-icon {
+        padding-left: 3px;
+        }
+
+    /* section-3 */
+
+    /* footer */
+
+    .footer-child1 {
+        order: 1;
+        width: calc(calc(100% - 40px) / 2);
+    }
+
+    .footer-child2 {
+        margin-top: 30px;
+        order: 3;
+        width: 100%;
+    }
+
+    .footer-child3 {
+        order: 2;
+        width: calc(calc(100% - 40px) / 2);
+    }
+
+    /* footer */
+
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    /* main */
+
+    .button-parent {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .word .book-table {
+        margin: 10px;
+    }
+
+    .watch-video {
+        margin: 15px auto;
+    }
+
+    .picture img {
+        margin-top: -40px;
+    }
+
+    /* main */
+
+    /* section-1 */
+
+    .chefs-parent {
+        justify-content: space-around;
+    }
+
+    .chefs-parent .child {
+        position: relative;
+        overflow: hidden;
+        width: 95%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        background-color: rgb(242, 242, 242);
+        box-shadow: 0px 0px 20px #00000014;
+        margin-bottom: 20px;
+        transition: 0.7s;
+    }
+
+    .chefs-parent .child:hover {
+        transform: scale(1.040);
+    }
+
+    .head-section p,
+    .head-section p span {
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-size: 45px;
+    }
+
+    /* section-1 */
+
+    /* section-2 */
+    .gallery-parent {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .gallery-child {
+        width: 100%;
+    }
+
+    .gallery-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .gallery-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .one {
+        order: 1;
+    }
+
+    .two {
+        order: 2;
+    }
+
+    .three {
+        order: 3;
+    }
+
+    .four {
+        order: 4;
+    }
+
+    .five {
+        order: 5;
+    }
+
+    .six {
+        order: 6;
+    }
+
+    .seven {
+        order: 7;
+    }
+
+    /* section-2 */
+
+    /* section-3 */
+    .contact-map {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-map iframe {
+        width: 95%;
+        height: 22rem;
+    }
+
+    /* section-3 */
+
+    /* footer */
+
+    footer {
+        padding: 40px 5px;
+    }
+
+    .footer-child1 {
+        margin-top: 30px;
+        width: 100%;
+        order: 1;
+    }
+
+    .footer-child2 {
+        margin-top: 30px;
+        width: 100%;
+        order: 2;
+    }
+
+    .footer-child3 {
+        margin-top: 30px;
+        width: 100%;
+        order: 3;
+    }
+
+
+    .footer-child2 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .send-footer {
+        width: 100%;
+    }
+
+    .footer-linkes ul li a {
+        font-size: 18px;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    /* footer */
+
+
+}
+
+@media (min-width: 1200px) {
+
+    /* main */
+    main {
+        height: 100vh;
+    }
+
+    /* main */
+
+    /* section-1 */
+
+    .chefs-parent .child {
+        position: relative;
+        overflow: hidden;
+        width: calc(calc(100% - 40px)/3);
+        border-radius: 15px;
+        background-color: rgb(242, 242, 242);
+        transition: 0.7s;
+    }
+
+    /* section-1 */
+
+    /* section-2 */
+    .gallery-child {
+        width: calc(calc(100% - 30px) / 3);
+    }
+
+    .one {
+        order: 1;
+    }
+
+    .two {
+        order: 2;
+    }
+
+    .three {
+        order: 3;
+    }
+
+    .four {
+        order: 4;
+    }
+
+    .five {
+        order: 5;
+    }
+
+    .six {
+        order: 6;
+    }
+
+    .seven {
+        order: 7;
+    }
+
+    /* section-2 */
+}
